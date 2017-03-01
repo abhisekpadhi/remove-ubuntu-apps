@@ -2,14 +2,18 @@
 Use this script to remove the bundled apps from ubuntu to trim down the fat
 
 # How to use
-  - Give executable permission to user
-  ```bash
-  chmod u+x removal-script.sh
+  1. Give executable permission to user
   ```
-  - Populate `emove-apps-list.txt` or use at it is
-  - Run the script
-  ```bash
+  chmod u+x removal-script.sh
+
+  ```
+  2. Populate `remove-apps-list.txt` or use at it is
+
+  3. Run the script
+
+  ```
   ./removal-script.#!/bin/sh
+
   ```
 
 # Tested with
